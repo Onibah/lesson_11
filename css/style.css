@@ -1,0 +1,188 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,regular,500,700,900,&display=swap");
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-Roman.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-Roman.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeueBoldCondensed.woff2") format("woff2"),
+		url("../fonts/HelveticaNeueBoldCondensed.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Helvetica Neue";
+	src: url("../fonts/HelveticaNeue-CondensedBlack.woff2") format("woff2"),
+		url("../fonts/HelveticaNeue-CondensedBlack.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	font-family: "Roboto";
+}
+.wrapper {
+	min-height: 100%;
+
+}
+
+/* .................................................... */
+/* Первый блок */
+.block-top__box {
+	background: url("../img/bg.png") 0 0 no-repeat;
+	padding: 280px 647px 312px 210px;
+	width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+.block-top__box::before {
+	content: "";
+	width: 201px;
+	height: 317px;
+	top: 611px;
+	left: 1105px;
+	position: absolute;
+	background: url("../img/bgbg.svg");
+}
+
+.block-top__titles {
+	width: 583px;
+	margin: 0px 0px 48px 0px;
+}
+.block-top__title {
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	color: #FFFFFF;
+}
+.block-top__button {
+	width: 210px;
+	background: #F2726F;
+	padding: 12px 0px 12px 0px;
+	text-align: center;
+	border-radius: 10px;
+}
+.block-top__btn {
+	width: 210px;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+
+
+
+/* Второй блок_______________________________________________ */
+
+
+.block-midle__box {
+	width: 1035px;
+	margin: 0 auto;
+}
+
+.who-we-are {
+	background: #5D62B5;
+	border-radius: 40px;
+	line-height: 24px;
+	font-size: 16px;
+}
+.who-we-are__items {
+	padding: 100px 87px 354px 87px;
+	margin: -80px 0px 0px 0px;
+}
+
+.who-we-are__titles {
+	margin: 0px 0px 36px 0px;
+	
+}
+.who-we-are__subtitle {
+	font-weight: 700;
+	font-size: 12px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #F5F5F5;
+	margin: 0px 0px 33px 0px;
+	position: relative;
+	padding: 0px 0px 0px 33px;
+	line-height: 17px;
+}
+.who-we-are__subtitle::before {
+	content: "";
+	position: absolute;
+	top: -5px;
+	left: -6px;
+	background: url("../img/mark.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+}
+.who-we-are__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+.who-we-are__text {
+	letter-spacing: 0.15px;
+	color: #F5F5F5;
+}
+.block-midle__image {
+	margin: -300px 0px 0px 0px;
+}
+.block-midle__img {
+	display: block;
+	margin: 0 auto;
+}
